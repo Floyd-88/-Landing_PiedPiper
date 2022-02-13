@@ -1,0 +1,134 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+body {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+main {
+	width: 1219px;
+	padding: 0 55px 0 55px;
+	margin: auto;
+	padding-top: 80px;
+}
+header {
+	display: flex;
+    background-color: #007765;
+    justify-content: space-around;
+    position: fixed;
+    width: 1109px;
+    height: 80px;
+    top: 0;
+    z-index: 1000;
+}
+.underHeader{
+
+}
+.logo {
+	display: flex;
+    align-items: center;
+	padding-top: 20px;
+    padding-bottom: 19px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+
+	color: #FFFFFF;
+
+
+}
+
+.nav_link {
+  color: #FFFFFF;
+		
+		
+}
+.nav_link:active{
+  text-decoration: none;
+  color: #FFFFFF;
+} 
+/*.nav_link:hover {
+
+}*/
+
+
+
+.delimiter{
+	margin-left: 8px;
+    margin-right: 8px;
+}
+
+.section_piperNet_Is_Here {
+	height: 200px;
+}
+
+.piperNet_Is_Here {
+	display: flex;
+    height: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+	background: url("img/image_1.jpg");
+}
+.piperNet_Is_Here p {
+	font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.problem {
+	background: #EEEEEE;
+}
+.tagline {
+		background: url("img/image_2.jpg");
+}
+.I_P_P_Coin {
+		background: ##FFFFFF;
+}
+
+.the_Team {
+	background: #EEEEEE;
+
+}
+footer {
+	background: #333333;
+}
