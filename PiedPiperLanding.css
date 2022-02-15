@@ -251,7 +251,7 @@ header {
 	color: #000000;
 }
 .section_the_team_wrapper_members figure {
-	display: flex;
+
     flex-direction: column;
     text-align: center;
 }
@@ -270,8 +270,114 @@ footer {
 	line-height: 21px;
 	text-align: center;
 	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+ section:target {
+    padding-top: 75px;
+    margin-top: -75px;
+  }
+
+
+/*Медиа запросы для адаптива*/
+
+ @media (max-width: 740px) {
+  header {
+  	height: 140px;
+  }
+  .header_wrapper_logo {
+  	flex-direction: column;
+  	align-items: center;
+  }
+  .section_piperNet {
+  	margin-top: 130px;
+  }
+  .section_problem_article_text {
+  	text-align: center;
+  }
+
+  .section_I_P_P_Coin_wrapper_article {
+	text-align: center;
+  }
+  .section_I_P_P_Coin_wrapper_article_logo {
+  	padding-bottom: 30px;
+  }
+  .section_I_P_P_Coin_wrapper_article_logo figure {
+  	display: none;
+  }
+  .section_I_P_P_Coin_wrapper_article_logo p {
+  	padding: 0;
+  }
+   section:target {
+    padding-top: 130px;
+    margin-top: -130px;
+  }
 }
 
- section:target {
-    padding-top: 81px;
+@media (max-width: 610px) {
+	.row_1_team_members {
+	flex-direction: column;
+	}
+	.row_2_team_members {
+	flex-direction: column;
+	}
+	.section_the_team_wrapper_members {
+		padding-bottom: 0;
+	}
+	.section_the_team_wrapper_members figure {
+		padding-bottom: 30px;
+	}
+	.row_1_team_members {
+		padding-bottom: 0;
+	}
+}
+
+  @media (max-width: 520px) {
+  	.logo{
+  		/*display: none;*/
+  	}
+  .header_wrapper_logo {
+  	flex-direction: column;
+  	align-items: center;
   }
+  .header_wrapper_nav {
+  	font-size: 23px;
+}
+
+ @media (max-width: 505px) {
+ 	  header {
+  	height: 155px;
+  }
+
+  	header_wrapper {
+  	padding-left: 25px;
+    padding-right: 25px;
+  }
+  .header_wrapper_logo {
+  	flex-direction: column;
+  	align-items: center;
+  }
+  .header_wrapper_nav {
+  	font-size: 23px;
+  }
+  .header_wrapper_item {
+  	text-align: center;
+    display: flex;
+  }
+  .section_I_P_P_Coin_wrapper h2 {
+  	font-size: 55px;
+  }
+   section:target {
+    padding-top: 145px;
+    margin-top: -145px;
+  }
+}
+ @media (max-width: 434px) {
+ 	body{
+ 		display: flex;
+ 	}
+  	header_wrapper {
+  	adding-left: 25px;
+    padding-right: 25px;
+  }
+}
