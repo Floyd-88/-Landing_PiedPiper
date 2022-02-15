@@ -309,8 +309,8 @@ footer {
   	padding: 0;
   }
    section:target {
-    padding-top: 130px;
-    margin-top: -130px;
+    padding-top: 110px;
+    margin-top: -110px;
   }
 }
 
@@ -366,10 +366,6 @@ footer {
   }
   .section_I_P_P_Coin_wrapper h2 {
   	font-size: 55px;
-  }
-   section:target {
-    padding-top: 145px;
-    margin-top: -145px;
   }
 }
  @media (max-width: 434px) {
